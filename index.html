@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tp Developpement Web</title>
+</head>
+<body>
+    
+
+    <h1>Deviner le nombre mystere</h1>
+    <p>Le but de ce jeu est de pousser l'utilisateur a 
+        deviner un nombre generer aleatoirement entre 1 et 100</p>
+        <div class="formulaire">
+            <div class="form">
+                <label for="champ">Entrez votre nombre ici :</label>
+                <input type="number" min="1" max="100" required class="champ" placeholder="votre nombre">
+            </div>
+            <input type="submit"  class="soumettre" value="Soumettre">
+        </div>
+
+        <div class="resultat">
+            <p class="deviner"></p>
+            <p class="tentativePrec"></p>
+            <p class="indication"></p>
+        </div>
+
+        <script src="app.js"></script>
+</body>
+</html>
